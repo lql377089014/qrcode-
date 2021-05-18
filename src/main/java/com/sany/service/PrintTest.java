@@ -70,6 +70,9 @@ public class PrintTest {
 		PrintUtil.imagesToPdf("123", "D:\\20210512172119\\");
 		//printImg("d:\\qrcode\\6A48C1C1A46E45F79B0C638AB60166C1.jpg", 1);
 		
+		//Test
+		
+		
 		
 	}
 }
