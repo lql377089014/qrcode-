@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>批量导入Excel</title>
+<style type="text/css">
+.btn{
+	border: soilder;
+    color: red;
+    padding: 5px 5px;
+    width:300px;
+    text-align: left;
+    display: inline-block;
+    font-size: 22px;
+}
+.button{
+	font-size:22px;
+	background-color:#00FFFF;
+}
+.btn2{
+	font-size:22px;
+	background-color: #00FF00;
+}
+.btn3{
+   font-size:22px;
+   background-color: #00FF00;
+
+
+
+
+</style>
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+
+</head>
+
+<body>
+	<div class="div">
+		<form id="fileForm" action="/parts/importExcel" method="POST"
+			enctype="multipart/form-data">
+			<input id="file" type="file" name="file"
+				class="btn btn-outline-primary" /> 
+			<input id="btnSubmitFile" class="button"
+				type="button" value="Excel导入并打印" />									
+				<input type="button" class="btn3" onClick="downloadPdf()"  value="下载PDF文档">	 
+				<input class="btn2" onClick="download()" type="button" value="下载模板" >	
+		</form>	
+	</div>
+	
+		
+		
+
+	<script type="text/javascript">
+    $(function () {
+        $("#btnSubmitFile").click(function () {
+            var form = new FormData(document.getElementById("fileForm"));
+            $.ajax({
+                url: "/parts/importExcel",
+                type: "post",
+                data: form,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                   alert("二维码生成成功!");
+                },
+                error: function(e) {
+                    console.log(e);
+                }
+            });
+        });
+
+    });
+    function  download()
+    {
+    	window.open("/parts/exportTemplate");	
+    				
+    };
+    function  downloadPdf()
+    {
+    	window.open("/parts/downloadPdf");	
+    				
+    };
+     
+</script>
+</body>
+</html>
+
