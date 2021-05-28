@@ -25,13 +25,11 @@
    font-size:22px;
    background-color: #00FF00;
 
-
-
-
 </style>
 
-<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
-</script>
+
+<script src="/js/jquery-2.0.2.min.js"></script>
+ 
 
 </head>
 
@@ -42,7 +40,7 @@
 			<input id="file" type="file" name="file"
 				class="btn btn-outline-primary" /> 
 			<input id="btnSubmitFile" class="button"
-				type="button" value="Excel导入并打印" />									
+				type="button" value="Excel导入并打印" />										
 				<input type="button" class="btn3" onClick="downloadPdf()"  value="下载PDF文档">	 
 				<input class="btn2" onClick="download()" type="button" value="下载模板" >	
 		</form>	
@@ -50,11 +48,10 @@
 	
 		
 		
-
-	<script type="text/javascript">
-    $(function () {
-        $("#btnSubmitFile").click(function () {
-            var form = new FormData(document.getElementById("fileForm"));
+	<script type="text/javascript">	
+	 $(function () {
+        $("#btnSubmitFile").click(function () {             
+        var form = new FormData(document.getElementById("fileForm"));
             $.ajax({
                 url: "/parts/importExcel",
                 type: "post",
@@ -68,9 +65,11 @@
                     console.log(e);
                 }
             });
+          
         });
 
     });
+	
     function  download()
     {
     	window.open("/parts/exportTemplate");	
@@ -81,6 +80,7 @@
     	window.open("/parts/downloadPdf");	
     				
     };
+   
      
 </script>
 </body>

@@ -19,6 +19,7 @@ import org.apache.poi.ss.usermodel.HorizontalAlignment;
 import org.apache.poi.ss.usermodel.VerticalAlignment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -36,6 +37,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @RequestMapping("/parts")
+@CrossOrigin
 @Slf4j
 public class PartsController {
 
@@ -47,7 +49,7 @@ public class PartsController {
 	// 导入Excel
 	@ResponseBody
 	@RequestMapping(value = "/importExcel", method = { RequestMethod.GET, RequestMethod.POST })
-	public BaseMode importExcel(MultipartFile file,HttpServletRequest request,HttpServletResponse response) {
+	public BaseMode importExcel(MultipartFile file) {
 		try {
 			int headSize = 1;
 			String[] fields = { "orderNumber", "partCode", "batch", "partSize", "route", "num" };
@@ -183,9 +185,17 @@ public class PartsController {
 		//下载PDF文档
 		@RequestMapping(value="/downloadPdf")
 		public void downloadPdf(HttpServletRequest request,HttpServletResponse response)
-		{
-			String fileName=PUtils.TimeToString2(System.currentTimeMillis())+".pdf";
-			service.download(request, response,fileName);
+		{    
+			
+			//去获取生成文件的生成的的名字			
+		     try {
+		    	 String fileName=PUtils.TimeToString2(System.currentTimeMillis())+".pdf";
+					service.download(request, response,fileName);
+			} catch (Exception e) {
+				log.error(PUtils.excepitonToString(e));
+				e.printStackTrace();
+			}
+			
 		}
 	
 		

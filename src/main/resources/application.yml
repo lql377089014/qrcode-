@@ -1,4 +1,4 @@
 server:
   port: 8086
-logging:  path: D:/logFile
+logging:  path: logFile
   

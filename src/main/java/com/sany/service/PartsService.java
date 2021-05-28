@@ -134,6 +134,7 @@ public class PartsService {
                response.setHeader("Content-Disposition", "attachment;fileName=" + new String(encodenickname.getBytes("UTF-8"), "ISO8859-1"));
   
                File file = new File(fileName);
+  
                if (!file.exists()) {
                    response.sendError(404, "File not found!");
                    return;

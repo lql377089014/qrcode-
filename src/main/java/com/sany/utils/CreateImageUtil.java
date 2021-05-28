@@ -101,7 +101,7 @@ public class CreateImageUtil {
         //设置字体颜色，先设置颜色，再填充内容
         centerword.setColor(Color.black);
         //设置字体
-        Font FontCenterword = new Font("宋体", Font.BOLD, 21);
+        Font FontCenterword = new Font("仿宋", Font.BOLD, 21);
  
         centerword.setFont(FontCenterword);
         ((Graphics2D) centerword).setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING,RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB);
@@ -111,14 +111,14 @@ public class CreateImageUtil {
         //设置下面字体的初始位置
         if(words.length()<10)
         {   
-        	startX=40+words.length()*7;
+        	startX=50+words.length()*7;
         	centerword.drawString(words, startX,  H_CodeImg+15);
         }else if(words.length()<19)
         {   
-        	startX=40;
+        	startX=50;
         	centerword.drawString(words, startX, H_CodeImg+15);
         }else {
-        	startX=35;
+        	startX=50;
         	centerword.drawString(words.substring(0,18), startX, H_CodeImg+15);
 			centerword.drawString(words.substring(18,words.length()), startX, H_CodeImg+30);
 		}
