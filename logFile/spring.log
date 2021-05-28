@@ -1,0 +1,105 @@
+2021-05-28 08:05:55.368  INFO 47832 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 47832 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:05:55.386  INFO 47832 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:05:57.815  INFO 47832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:05:57.886  INFO 47832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:05:57.887  INFO 47832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:05:58.330  INFO 47832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:05:58.330  INFO 47832 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2844 ms
+2021-05-28 08:05:58.748  INFO 47832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:05:59.230  INFO 47832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:05:59.239  INFO 47832 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 4.77 seconds (JVM running for 5.943)
+2021-05-28 08:06:02.598  INFO 47832 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 08:06:02.598  INFO 47832 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-28 08:06:02.609  INFO 47832 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-05-28 08:06:22.469 ERROR 47832 --- [http-nio-8086-exec-4] com.sany.controller.PartsController      : 文件不存在！请确认选择
+2021-05-28 08:08:11.233  INFO 56084 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 56084 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:08:11.244  INFO 56084 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:08:13.422  INFO 56084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:08:13.469  INFO 56084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:08:13.471  INFO 56084 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:08:13.850  INFO 56084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:08:13.850  INFO 56084 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2503 ms
+2021-05-28 08:08:14.287  INFO 56084 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:08:14.758  INFO 56084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:08:14.763  INFO 56084 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 4.444 seconds (JVM running for 5.359)
+2021-05-28 08:08:24.948  INFO 56084 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 08:08:24.949  INFO 56084 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-28 08:08:24.965  INFO 56084 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-05-28 08:15:53.001  INFO 45512 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 45512 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:15:53.012  INFO 45512 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:15:55.316  INFO 45512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:15:55.373  INFO 45512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:15:55.375  INFO 45512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:15:55.772  INFO 45512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:15:55.773  INFO 45512 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2652 ms
+2021-05-28 08:15:56.237  INFO 45512 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:15:56.707  INFO 45512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:15:56.717  INFO 45512 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 4.579 seconds (JVM running for 5.587)
+2021-05-28 08:16:45.284 DEBUG 29560 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2021-05-28 08:16:45.534  INFO 29560 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 29560 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:16:45.535  INFO 29560 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:16:47.867  INFO 29560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:16:47.922  INFO 29560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:16:47.923  INFO 29560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:16:48.323  INFO 29560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:16:48.324  INFO 29560 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2697 ms
+2021-05-28 08:16:48.751  INFO 29560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:16:49.194  INFO 29560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:16:49.201  INFO 29560 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 4.726 seconds (JVM running for 5.811)
+2021-05-28 08:16:53.937  INFO 29560 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 08:16:53.938  INFO 29560 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-28 08:16:53.948  INFO 29560 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-05-28 08:18:30.058  INFO 55472 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 55472 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:18:30.073  INFO 55472 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:18:33.790  INFO 55472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:18:33.850  INFO 55472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:18:33.851  INFO 55472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:18:34.623  INFO 55472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:18:34.623  INFO 55472 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4407 ms
+2021-05-28 08:18:35.094  INFO 55472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:18:35.800  INFO 55472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:18:35.808  INFO 55472 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 6.886 seconds (JVM running for 8.115)
+2021-05-28 08:18:50.414  INFO 55472 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 08:18:50.414  INFO 55472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-28 08:18:50.424  INFO 55472 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-05-28 08:19:57.666  INFO 57188 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 57188 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:19:57.678  INFO 57188 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:19:59.934  INFO 57188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:19:59.982  INFO 57188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:19:59.983  INFO 57188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:20:00.413  INFO 57188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:20:00.413  INFO 57188 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2653 ms
+2021-05-28 08:20:00.822  INFO 57188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:20:01.276  INFO 57188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:20:01.285  INFO 57188 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 4.579 seconds (JVM running for 5.549)
+2021-05-28 08:20:04.279  INFO 57188 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 08:20:04.280  INFO 57188 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-28 08:20:04.290  INFO 57188 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-05-28 08:20:16.205 ERROR 57188 --- [http-nio-8086-exec-2] com.sany.controller.PartsController      : 文件不存在！请确认选择
+2021-05-28 08:23:37.103  INFO 56716 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 56716 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:23:37.119  INFO 56716 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:23:39.624  INFO 56716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:23:39.710  INFO 56716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:23:39.711  INFO 56716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:23:40.180  INFO 56716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:23:40.181  INFO 56716 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2953 ms
+2021-05-28 08:23:40.627  INFO 56716 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:23:41.082  INFO 56716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:23:41.091  INFO 56716 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 4.904 seconds (JVM running for 6.056)
+2021-05-28 08:23:46.936  INFO 56716 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 08:23:46.938  INFO 56716 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-28 08:23:46.952  INFO 56716 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-05-28 08:24:45.527  INFO 52348 --- [main] com.sany.QrcodeApplication               : Starting QrcodeApplication on DESKTOP-I2G5AB0 with PID 52348 (D:\localGit\qrcode\target\classes started by sany in D:\localGit\qrcode)
+2021-05-28 08:24:45.543  INFO 52348 --- [main] com.sany.QrcodeApplication               : No active profile set, falling back to default profiles: default
+2021-05-28 08:24:48.141  INFO 52348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-05-28 08:24:48.214  INFO 52348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-28 08:24:48.216  INFO 52348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2021-05-28 08:24:48.735  INFO 52348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-28 08:24:48.735  INFO 52348 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3065 ms
+2021-05-28 08:24:49.260  INFO 52348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-28 08:24:49.767  INFO 52348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2021-05-28 08:24:49.774  INFO 52348 --- [main] com.sany.QrcodeApplication               : Started QrcodeApplication in 5.329 seconds (JVM running for 6.436)
+2021-05-28 08:24:54.569  INFO 52348 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-28 08:24:54.570  INFO 52348 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-28 08:24:54.581  INFO 52348 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-05-28 08:25:02.276 ERROR 52348 --- [http-nio-8086-exec-4] com.sany.controller.PartsController      : 文件不存在！请确认选择
